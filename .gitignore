@@ -1,0 +1,46 @@
+# Environment and Credentials
+.env
+*.env
+*.key
+*.pem
+*.json_secret
+config.json
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Node Modules and Build Artifacts
+node_modules/
+dist/
+build/
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Project Data and Artifacts Cache
+cache/
+results/
+vajra_ai_data/
+*.npz
+*.parquet
+*.h5
+*.hdf5
+*.nc
+*.log
+test_out.txt
+
+# Backup & Scratch directories created during development
+backup_before_fix/
+backup_before_deployment_prep/
+audit_arch.py
+prepare_frontend.py
+
+# System & OS Files
+.DS_Store
+Thumbs.db
